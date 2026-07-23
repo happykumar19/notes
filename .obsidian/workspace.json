@@ -11,17 +11,28 @@
             "id": "2970f0eff7a4a385",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "google_dorks.md",
-                "mode": "source",
-                "source": false
+                "file": "Campaign_of_alexander.pdf"
               },
-              "icon": "lucide-file",
-              "title": "google_dorks"
+              "icon": "lucide-file-text",
+              "title": "Campaign_of_alexander"
+            }
+          },
+          {
+            "id": "686c060eed2a4ecc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Campaign_of_alexander.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Campaign_of_alexander"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "google_dorks.md",
+                "file": "Campaign_of_alexander.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for google_dorks"
+              "title": "Backlinks for Campaign_of_alexander"
             }
           },
           {
@@ -113,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "google_dorks.md",
+                "file": "Campaign_of_alexander.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from google_dorks"
+              "title": "Outgoing links from Campaign_of_alexander"
             }
           },
           {
@@ -156,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "google_dorks.md",
+                "file": "Campaign_of_alexander.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of google_dorks"
+              "title": "Outline of Campaign_of_alexander"
             }
           }
         ]
@@ -183,10 +194,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "2970f0eff7a4a385",
+  "active": "686c060eed2a4ecc",
   "lastOpenFiles": [
+    "Pyscho_cybernetics_-_Maxwell_maltz.pdf",
+    "note.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Campaign_of_alexander.pdf",
+    "Untitled",
     "flats.md",
-    "api_keys.md",
-    "Campaign_of_alexander.pdf"
+    "google_dorks.md",
+    "api_keys.md"
   ]
 }
