@@ -23,12 +23,14 @@
             "id": "686c060eed2a4ecc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Campaign_of_alexander.pdf"
+                "file": "note.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Campaign_of_alexander"
+              "icon": "lucide-file",
+              "title": "note"
             }
           }
         ],
@@ -196,11 +198,11 @@
   },
   "active": "686c060eed2a4ecc",
   "lastOpenFiles": [
+    "Campaign_of_alexander.pdf",
     "Pyscho_cybernetics_-_Maxwell_maltz.pdf",
     "note.md",
     "Untitled.md",
     "Untitled 1.md",
-    "Campaign_of_alexander.pdf",
     "Untitled",
     "flats.md",
     "google_dorks.md",

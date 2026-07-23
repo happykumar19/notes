@@ -102,3 +102,7 @@ Instead of asking it to build everything, use it as an interactive mentor. For e
 - "If this application grows to one million users, what should change?"
 
 https://maryrosecook.com/blog/post/become-an-ai-augmented-engineer
+
+
+
+https://youtu.be/N9YODrMUk5A?si=a6S3VtIi25Tiep2m
