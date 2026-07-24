@@ -109,3 +109,7 @@ https://youtu.be/N9YODrMUk5A?si=a6S3VtIi25Tiep2m
 
 
 https://x.com/agentsmaxxing/status/2080221158981710246
+
+
+
+Solo Leveling
