@@ -1,25 +1,20 @@
-https://github.com/automata/aicodeguide
+[https://github.com/automata/aicodeguide](https://github.com/automata/aicodeguide)
 
-https://github.com/filipecalegario/awesome-vibe-coding
+[https://github.com/filipecalegario/awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding)
 
-llm workflow for vibe coding https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/
+llm workflow for vibe coding [https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/)
 
-https://chatgpt.com/share/67f8e8c6-c92c-8007-8fe0-76bdc73f9812 conver sation on how to create prd for apps and wepapps
+[https://chatgpt.com/share/67f8e8c6-c92c-8007-8fe0-76bdc73f9812](https://chatgpt.com/share/67f8e8c6-c92c-8007-8fe0-76bdc73f9812) conver sation on how to create prd for apps and wepapps
 
-https://steve-yegge.medium.com/software-survival-3-0-97a2a6255f7b must read
+[https://steve-yegge.medium.com/software-survival-3-0-97a2a6255f7b](https://steve-yegge.medium.com/software-survival-3-0-97a2a6255f7b) must read
 
-https://maryrosecook.com/blog/post/become-an-ai-augmented-engineer
+[https://maryrosecook.com/blog/post/become-an-ai-augmented-engineer](https://maryrosecook.com/blog/post/become-an-ai-augmented-engineer)
 
+[https://addyo.substack.com/p/the-70-problem-hard-truths-about](https://addyo.substack.com/p/the-70-problem-hard-truths-about)
 
-https://addyo.substack.com/p/the-70-problem-hard-truths-about
+[https://ampcode.com/notes/how-to-build-an-agent](https://ampcode.com/notes/how-to-build-an-agent)
 
-
-
-https://ampcode.com/notes/how-to-build-an-agent
-
-https://reddelexc.github.io/hackerone-reports/#tops_by_bug_type/TOPXSS.md
-
-
+[https://reddelexc.github.io/hackerone-reports/#tops_by_bug_type/TOPXSS.md](https://reddelexc.github.io/hackerone-reports/#tops_by_bug_type/TOPXSS.md)
 
 # Learn
 
@@ -29,6 +24,8 @@ https://reddelexc.github.io/hackerone-reports/#tops_by_bug_type/TOPXSS.md
 - Dependency Injection
 - Clean Architecture
 - MVC
+
+
 
 ## Authentication
 
@@ -62,7 +59,10 @@ Every SaaS product needs this.
 - CI/CD
 - GitHub Actions
 
-# Ai 
+
+
+# Ai
+
 - Tool Calling
 - MCP
 - RAG
@@ -77,11 +77,7 @@ Every SaaS product needs this.
 
 **System Design Primer** (GitHub)
 
-
-
-https://www.youtube.com/@gkcs/videos
-
-
+[https://www.youtube.com/@gkcs/videos](https://www.youtube.com/@gkcs/videos)
 
 ### AI Systems
 
@@ -89,6 +85,9 @@ https://www.youtube.com/@gkcs/videos
 - OpenAI documentation on tools, responses, and agents
 - LangGraph documentation (for stateful agent workflows)
 - Model Context Protocol (MCP) specification and tutorials
+
+
+
 # How to use Claude Code as your teacher
 
 Instead of asking it to build everything, use it as an interactive mentor. For example:
@@ -101,15 +100,12 @@ Instead of asking it to build everything, use it as an interactive mentor. For e
 - "Review my architecture and point out weaknesses."
 - "If this application grows to one million users, what should change?"
 
-https://maryrosecook.com/blog/post/become-an-ai-augmented-engineer
+[https://maryrosecook.com/blog/post/become-an-ai-augmented-engineer](https://maryrosecook.com/blog/post/become-an-ai-augmented-engineer)
 
+[https://youtu.be/N9YODrMUk5A?si=a6S3VtIi25Tiep2m](https://youtu.be/N9YODrMUk5A?si=a6S3VtIi25Tiep2m)
 
-
-https://youtu.be/N9YODrMUk5A?si=a6S3VtIi25Tiep2m
-
-
-https://x.com/agentsmaxxing/status/2080221158981710246
-
-
+[https://x.com/agentsmaxxing/status/2080221158981710246](https://x.com/agentsmaxxing/status/2080221158981710246)
 
 Solo Leveling
+
+AIzaSyBNocc5gFoOSr5lYKhnBskyQGT61XNRaDo
