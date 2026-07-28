@@ -109,3 +109,152 @@ Instead of asking it to build everything, use it as an interactive mentor. For e
 Solo Leveling
 
 AIzaSyBNocc5gFoOSr5lYKhnBskyQGT61XNRaDo
+
+
+https://youtu.be/C842vFY5kRo?si=R5PkDHQckIhZY4Mp
+
+[
+    {
+        "domain": "cursor.com",
+        "expirationDate": 1790320091.509786,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "WorkosCursorSessionToken",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "user_01KEF2F5Z59K838G53HJFHQZ3P%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VGMkY1WjU5SzgzOEc1M0hKRkhRWjNQIiwidGltZSI6IjE3ODUxMzYwOTMiLCJyYW5kb21uZXNzIjoiNzBkNjQ2NjEtMTRhZC00MzcxIiwiZXhwIjoxNzkwMzIwMDkzLCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIiwid29ya29zU2Vzc2lvbklkIjoic2Vzc2lvbl8wMUtZSDZFNkg1UTQzQU5KRkpSRTREQjZSVyJ9.tMUZEgrVuwMadWdhiEKAhBZryQiDh3bu9kPtL19W2RI"
+    },
+    {
+        "domain": "cursor.com",
+        "expirationDate": 1800687545.464256,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "cursor_anonymous_id",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "7aba7c5f-1a53-432f-8821-68d34076c0a9"
+    },
+    {
+        "domain": "cursor.com",
+        "expirationDate": 1790320091.50973,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "workos_id",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "user_01KEF2F5Z59K838G53HJFHQZ3P"
+    },
+    {
+        "domain": ".cursor.com",
+        "expirationDate": 1800703927.509439,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "GA1.1.152777194.1785135547"
+    },
+    {
+        "domain": ".cursor.com",
+        "expirationDate": 1800780764.614421,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__stripe_mid",
+        "path": "/",
+        "sameSite": "strict",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "187a1456-2284-4cbf-8fc8-4d209324ce424fa576"
+    },
+    {
+        "domain": ".cursor.com",
+        "expirationDate": 1785230564,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__stripe_sid",
+        "path": "/",
+        "sameSite": "strict",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "9d5e3e64-38c8-412a-8501-0a55e52a781d167e76"
+    },
+    {
+        "domain": ".cursor.com",
+        "expirationDate": 1800703927.509342,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "_sgtm_pm",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "GA1.1.152777194.1785135547"
+    },
+    {
+        "domain": ".cursor.com",
+        "expirationDate": 1790320091.8327,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "cursor-web-target-synced-user",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "user_01KEF2F5Z59K838G53HJFHQZ3P"
+    },
+    {
+        "domain": "cursor.com",
+        "expirationDate": 1787728506.562028,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "cursor_marketing_attribution_storage_allowed",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "1"
+    },
+    {
+        "domain": "cursor.com",
+        "expirationDate": 1787728506.561962,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "logoCountry",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "IN"
+    },
+    {
+        "domain": ".cursor.com",
+        "expirationDate": 1800688544.326171,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "uet_vid",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "1b3597202d4b441098379fa26e03465c"
+    }
+]

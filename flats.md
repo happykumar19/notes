@@ -9,3 +9,6 @@ https://www.magicbricks.com/propertyDetails/1-BHK-550-Sq-ft-Builder-Floor-Apartm
 https://www.magicbricks.com/propertyDetails/1-BHK-500-Sq-ft-Builder-Floor-Apartment-FOR-Rent-Saket-in-New-Delhi&id=4d423633373037333931
 
 https://www.magicbricks.com/propertyDetails/1-BHK-400-Sq-ft-Builder-Floor-Apartment-FOR-Rent-Khirki-extension-in-New-Delhi&id=4d423133343533343132
+
+
+https://www.magicbricks.com/propertyDetail/sachin-pg-saket-in-new-delhi&pgid=4d42343035363935677261646532
