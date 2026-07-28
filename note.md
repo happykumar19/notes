@@ -59,7 +59,7 @@ Every SaaS product needs this.
 - CI/CD
 - GitHub Actions
 
-
+https://x.com/aashatwt/status/2075940323612889546
 
 # Ai
 
@@ -110,7 +110,7 @@ Solo Leveling
 
 AIzaSyBNocc5gFoOSr5lYKhnBskyQGT61XNRaDo
 
-
+https://x.com/waterloo_intern/status/2081762065392541951?s=20
 https://youtu.be/C842vFY5kRo?si=R5PkDHQckIhZY4Mp
 
 [
