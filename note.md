@@ -112,3 +112,7 @@ Solo Leveling
 
 https://x.com/waterloo_intern/status/2081762065392541951?s=20
 https://youtu.be/C842vFY5kRo?si=R5PkDHQckIhZY4Mp
+
+
+
+https://medium.com/@cyber-ninjaaa/bug-bounty-hacking-recon-automation-bug-bounty-methodology-09a741212ae7
