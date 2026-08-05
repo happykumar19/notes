@@ -118,3 +118,5 @@ https://youtu.be/C842vFY5kRo?si=R5PkDHQckIhZY4Mp
 https://medium.com/@cyber-ninjaaa/bug-bounty-hacking-recon-automation-bug-bounty-methodology-09a741212ae7
 
 https://youtu.be/XuoqKYxDHVc?si=jND7gBo6uCZekxmp
+
+https://www.amazon.in/ELMIRA-Water-Resistant-Crossbody-Multiple-Compartments/dp/B0FH7F97XT/?_encoding=UTF8&ref_=pd_hp_d_btf_ci_mcx_mr_ca_id_hp_d
