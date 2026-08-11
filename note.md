@@ -25,7 +25,7 @@ llm workflow for vibe coding [https://harper.blog/2025/02/16/my-llm-codegen-work
 - Clean Architecture
 - MVC
 
-
+https://www.amazon.in/CILOA-Chronograph-Waterproof-Wristwatch-Men%EF%BC%88Black%EF%BC%89/dp/B0FNJ84TNC/ref=pd_day0_d_sccl_1_1/524-8455781-6167743?psc=1
 
 ## Authentication
 
@@ -120,3 +120,115 @@ https://medium.com/@cyber-ninjaaa/bug-bounty-hacking-recon-automation-bug-bounty
 https://youtu.be/XuoqKYxDHVc?si=jND7gBo6uCZekxmp
 
 https://www.amazon.in/ELMIRA-Water-Resistant-Crossbody-Multiple-Compartments/dp/B0FH7F97XT/?_encoding=UTF8&ref_=pd_hp_d_btf_ci_mcx_mr_ca_id_hp_d
+
+https://infosecwriteups.com/story-of-my-first-valid-critical-bug-22029115f8d7
+
+https://blog.securitybreached.org/2024/06/28/finding-hidden-threats-how-i-found-leaked-aws-credentials-in-an-android-app-api-using-dast/
+sad
+
+  [
+    {
+        "domain": "cursor.com",
+        "expirationDate": 1791545276.52285,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "WorkosCursorSessionToken",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "user_01K31BJEYXR6E895ZPNP0A5CKB%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSzMxQkpFWVhSNkU4OTVaUE5QMEE1Q0tCIiwidGltZSI6IjE3ODYzNjEyNzUiLCJyYW5kb21uZXNzIjoiMWQyYTFiMmEtMWMyNC00YWQ4IiwiZXhwIjoxNzkxNTQ1Mjc1LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIiwid29ya29zU2Vzc2lvbklkIjoic2Vzc2lvbl8wMUtaTlBWUlI0MjUyUFlSM044R1NONjhKQSJ9.CilGgx993jrx2C-_ukOfFOzLPPwaNqXZvy9EahZwQgE"
+    },
+    {
+        "domain": "cursor.com",
+        "expirationDate": 1817897250.469125,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "cursor_anonymous_id",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "af5bde86-e011-4434-9c52-7cf73c3a52c7"
+    },
+    {
+        "domain": "cursor.com",
+        "expirationDate": 1791545276.522805,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "workos_id",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "user_01K31BJEYXR6E895ZPNP0A5CKB"
+    },
+    {
+        "domain": ".cursor.com",
+        "expirationDate": 1817965360,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__stripe_mid",
+        "path": "/",
+        "sameSite": "strict",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "e79a0cf1-67bf-4fa9-a307-02618af78c38dfe91e"
+    },
+    {
+        "domain": ".cursor.com",
+        "expirationDate": 1786431160,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__stripe_sid",
+        "path": "/",
+        "sameSite": "strict",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "ad3168ce-91e2-4ecd-aea5-048141498bd64f95f6"
+    },
+    {
+        "domain": ".cursor.com",
+        "expirationDate": 1791545278.284867,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "cursor-web-target-synced-user",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "user_01K31BJEYXR6E895ZPNP0A5CKB"
+    },
+    {
+        "domain": "cursor.com",
+        "expirationDate": 1788953253.315574,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "cursor_marketing_attribution_storage_allowed",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "1"
+    },
+    {
+        "domain": "cursor.com",
+        "expirationDate": 1788953253.315527,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "logoCountry",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "IN"
+    }
+]
