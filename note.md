@@ -295,3 +295,76 @@ https://github.com/karanb192/itr-wala
         "value": "595114d3-4f61-4a7c-9a07-b650e259c652"
     }
 ]
+
+
+
+
+
+
+Clone the x-algorithm repo. Extract every signal that boosts or buries a post in the For You feed. Then rewrite my writing rules so every draft is optimized for the ranker, and review my last 20 posts against the code to tell me exactly what I've been doing wrong
+
+
+
+
+3. Twitter/X Content Agent
+
+Yes, build this — but make it much more than an AI tweet generator.
+
+Most Twitter AI tools are boring:
+
+Give topic → generate tweet.
+
+Build:
+
+AI Content Operating System
+Trend discovery
+      ↓
+Topic research
+      ↓
+Audience analysis
+      ↓
+Content angle
+      ↓
+Draft
+      ↓
+Fact checking
+      ↓
+Hook optimization
+      ↓
+Thread generation
+      ↓
+Short-form video script
+      ↓
+Content calendar
+      ↓
+Analytics
+      ↓
+Learn what worked
+
+The interesting part is the feedback loop.
+
+Example:
+
+Post
+ ↓
+Impressions: 42k
+ ↓
+Engagement analysis
+ ↓
+Agent identifies:
+"Founder stories outperform tutorials"
+ ↓
+Updates content strategy
+ ↓
+Next week's content changes
+
+Now you've demonstrated:
+
+research agents
+memory
+analytics
+autonomous decision-making
+tool calling
+workflows
+
+Much stronger portfolio piece.
