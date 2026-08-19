@@ -368,3 +368,10 @@ tool calling
 workflows
 
 Much stronger portfolio piece.
+
+
+
+
+  npx skills add sanky369/vibe-building-skills@tweet-writer -g -y
+  npx skills add kostja94/marketing-skills@twitter-x-posts -g -y
+  npx skills add kostja94/marketing-skills@linkedin-posts -g -y
