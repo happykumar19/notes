@@ -1,0 +1,167 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fcf9f8;}body{overscroll-behavior:none;min-height:100vh;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}::-webkit-scrollbar{display:none;}</style><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-fixed-dim":"#e7c268","primary":"#4a654e","on-tertiary-fixed-variant":"#83260e","on-tertiary":"#ffffff","outline-variant":"#c2c8c0","secondary-container":"#ffd87c","on-error":"#ffffff","inverse-surface":"#313030","primary-fixed":"#cceace","tertiary-container":"#f97d5e","secondary":"#765a05","on-surface":"#1c1b1b","on-secondary-fixed":"#251a00","outline":"#737972","primary-container":"#8ba88e","on-tertiary-container":"#6e1701","on-background":"#1c1b1b","tertiary-fixed":"#ffdad2","surface-container-high":"#eae7e7","on-tertiary-fixed":"#3c0700","on-primary-fixed-variant":"#334d38","error":"#ba1a1a","error-container":"#ffdad6","surface":"#fcf9f8","on-secondary-fixed-variant":"#5a4400","tertiary":"#a33d23","secondary-fixed":"#ffdf96","surface-tint":"#4a654e","surface-variant":"#e5e2e1","primary-fixed-dim":"#b0ceb2","inverse-primary":"#b0ceb2","inverse-on-surface":"#f3f0ef","on-primary-fixed":"#07200f","surface-dim":"#dcd9d9","on-primary-container":"#233d29","surface-container-highest":"#e5e2e1","surface-container-lowest":"#ffffff","surface-container":"#f0eded","on-surface-variant":"#424842","tertiary-fixed-dim":"#ffb4a2","on-secondary":"#ffffff","surface-bright":"#fcf9f8","background":"#fcf9f8","surface-container-low":"#f6f3f2","on-error-container":"#93000a","on-primary":"#ffffff","on-secondary-container":"#795d08"},borderRadius:{DEFAULT:"1rem",lg:"2rem",xl:"3rem",full:"9999px"},spacing:{"space-md":"1rem","space-sm":"0.5rem","space-xs":"0.25rem","safe-margin":"1.25rem","space-lg":"1.5rem",gutter:"1rem","space-xl":"2.5rem"},fontFamily:{"display-lg-mobile":["Hanken Grotesk"],"headline-md":["Hanken Grotesk"],"display-lg":["Hanken Grotesk"],"title-task":["Hanken Grotesk"],"label-metadata":["Hanken Grotesk"],"label-caps":["Hanken Grotesk"],"body-main":["Hanken Grotesk"]},fontSize:{"display-lg-mobile":["32px",{lineHeight:"38px",letterSpacing:"-0.01em",fontWeight:"700"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}],"display-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"700"}],"title-task":["18px",{lineHeight:"24px",fontWeight:"500"}],"label-metadata":["13px",{lineHeight:"18px",letterSpacing:"0.02em",fontWeight:"600"}],"label-caps":["11px",{lineHeight:"16px",letterSpacing:"0.05em",fontWeight:"700"}],"body-main":["16px",{lineHeight:"26px",fontWeight:"400"}]}}}}</script></head><body class="bg-background font-body-main text-on-background flex flex-col min-h-screen"><header class="w-full flex items-center justify-center pt-safe h-24 mb-space-md"><img alt="Flowday logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AP1WRLva5g_3DuvpVVRAZO9OmO6IDLNwtsNWsYhHPYrMAqE7MrFa2USQJEv_zpgGV4nnd2tRyUfN_HJ_Mu-DKh_L08l_KQxD4YbIhVWNzkaxVMnlWZBAX1gTd_eGwZ4LIoDRmbpb4Ja5O8hlQDSp3BGuwW4X4N1XMIa5IbmoJZsx2SQYxSdcX1I4IK3KGQLgkSuTdkapSYC_Fy_G7Rjb3NtElt0nnvhgw6ft-iRoudfPn5mKteDZ0Wh7S3Ipp00"/></header><main class="flex-1 w-full px-safe-margin flex flex-col pb-safe"><div class="flex flex-col w-full">
+<!-- Header Area -->
+<div class="flex flex-col gap-space-sm mb-space-xl px-space-xs">
+<div class="flex items-center gap-2 mb-space-xs">
+<div class="h-1 w-8 rounded-full bg-primary"></div>
+<div class="h-1 w-8 rounded-full bg-primary-container"></div>
+<div class="h-1 w-8 rounded-full bg-surface-container-high"></div>
+</div>
+<h1 class="font-display-lg-mobile text-display-lg-mobile text-on-surface mt-space-md">
+      What usually gets in your way?
+    </h1>
+<p class="font-body-main text-body-main text-on-surface-variant">
+      Select all that apply. This helps us personalize your companion.
+    </p>
+</div>
+<!-- Options List -->
+<div class="flex flex-col gap-space-md mb-space-xl px-space-xs" id="challenge-options">
+<!-- Option 1 -->
+<button class="challenge-btn w-full text-left flex items-center justify-between p-space-md rounded-[24px] bg-surface-container-lowest text-on-surface shadow-[0_4px_20px_rgba(26,26,26,0.04)] transition-all duration-300 transform active:scale-[0.98] active:shadow-none" data-selected="false">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center icon-container transition-colors duration-300">
+<span class="material-symbols-outlined text-on-surface-variant icon-symbol transition-colors duration-300">waves</span>
+</div>
+<span class="font-title-task text-title-task">I get overwhelmed</span>
+</div>
+<span class="material-symbols-outlined opacity-0 text-on-primary-container transition-opacity duration-300 check-icon">check_circle</span>
+</button>
+<!-- Option 2 -->
+<button class="challenge-btn w-full text-left flex items-center justify-between p-space-md rounded-[24px] bg-surface-container-lowest text-on-surface shadow-[0_4px_20px_rgba(26,26,26,0.04)] transition-all duration-300 transform active:scale-[0.98] active:shadow-none" data-selected="false">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center icon-container transition-colors duration-300">
+<span class="material-symbols-outlined text-on-surface-variant icon-symbol transition-colors duration-300">snooze</span>
+</div>
+<span class="font-title-task text-title-task">I procrastinate</span>
+</div>
+<span class="material-symbols-outlined opacity-0 text-on-primary-container transition-opacity duration-300 check-icon">check_circle</span>
+</button>
+<!-- Option 3 -->
+<button class="challenge-btn w-full text-left flex items-center justify-between p-space-md rounded-[24px] bg-surface-container-lowest text-on-surface shadow-[0_4px_20px_rgba(26,26,26,0.04)] transition-all duration-300 transform active:scale-[0.98] active:shadow-none" data-selected="false">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center icon-container transition-colors duration-300">
+<span class="material-symbols-outlined text-on-surface-variant icon-symbol transition-colors duration-300">hourglass_empty</span>
+</div>
+<span class="font-title-task text-title-task">I struggle to start</span>
+</div>
+<span class="material-symbols-outlined opacity-0 text-on-primary-container transition-opacity duration-300 check-icon">check_circle</span>
+</button>
+<!-- Option 4 -->
+<button class="challenge-btn w-full text-left flex items-center justify-between p-space-md rounded-[24px] bg-surface-container-lowest text-on-surface shadow-[0_4px_20px_rgba(26,26,26,0.04)] transition-all duration-300 transform active:scale-[0.98] active:shadow-none" data-selected="false">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center icon-container transition-colors duration-300">
+<span class="material-symbols-outlined text-on-surface-variant icon-symbol transition-colors duration-300">update</span>
+</div>
+<span class="font-title-task text-title-task">I underestimate time</span>
+</div>
+<span class="material-symbols-outlined opacity-0 text-on-primary-container transition-opacity duration-300 check-icon">check_circle</span>
+</button>
+<!-- Option 5 -->
+<button class="challenge-btn w-full text-left flex items-center justify-between p-space-md rounded-[24px] bg-surface-container-lowest text-on-surface shadow-[0_4px_20px_rgba(26,26,26,0.04)] transition-all duration-300 transform active:scale-[0.98] active:shadow-none" data-selected="false">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center icon-container transition-colors duration-300">
+<span class="material-symbols-outlined text-on-surface-variant icon-symbol transition-colors duration-300">explore</span>
+</div>
+<span class="font-title-task text-title-task">I get distracted</span>
+</div>
+<span class="material-symbols-outlined opacity-0 text-on-primary-container transition-opacity duration-300 check-icon">check_circle</span>
+</button>
+<!-- Option 6 -->
+<button class="challenge-btn w-full text-left flex items-center justify-between p-space-md rounded-[24px] bg-surface-container-lowest text-on-surface shadow-[0_4px_20px_rgba(26,26,26,0.04)] transition-all duration-300 transform active:scale-[0.98] active:shadow-none" data-selected="false">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center icon-container transition-colors duration-300">
+<span class="material-symbols-outlined text-on-surface-variant icon-symbol transition-colors duration-300">battery_charging_full</span>
+</div>
+<span class="font-title-task text-title-task">My energy changes</span>
+</div>
+<span class="material-symbols-outlined opacity-0 text-on-primary-container transition-opacity duration-300 check-icon">check_circle</span>
+</button>
+<!-- Option 7 -->
+<button class="challenge-btn w-full text-left flex items-center justify-between p-space-md rounded-[24px] bg-surface-container-lowest text-on-surface shadow-[0_4px_20px_rgba(26,26,26,0.04)] transition-all duration-300 transform active:scale-[0.98] active:shadow-none" data-selected="false">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center icon-container transition-colors duration-300">
+<span class="material-symbols-outlined text-on-surface-variant icon-symbol transition-colors duration-300">bubble_chart</span>
+</div>
+<span class="font-title-task text-title-task">I have too many ideas</span>
+</div>
+<span class="material-symbols-outlined opacity-0 text-on-primary-container transition-opacity duration-300 check-icon">check_circle</span>
+</button>
+</div>
+<!-- Spacer to ensure bottom content doesn't overlap on scroll -->
+<div class="h-24"></div>
+<!-- Fixed Bottom Action -->
+<div class="fixed bottom-0 left-0 w-full px-safe-margin pb-safe pt-space-md bg-gradient-to-t from-background via-background to-transparent pointer-events-none flex justify-center z-50">
+<button class="w-full max-w-md bg-surface-container-high text-on-surface-variant rounded-full py-4 px-8 font-title-task text-title-task shadow-sm transition-all duration-300 pointer-events-auto transform active:scale-[0.98]" id="continue-btn">
+      Continue
+    </button>
+</div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.challenge-btn');
+    const continueBtn = document.getElementById('continue-btn');
+    let selectedCount = 0;
+
+    // Define class sets for easy toggling
+    const unselectedClasses = ['bg-surface-container-lowest', 'text-on-surface', 'shadow-[0_4px_20px_rgba(26,26,26,0.04)]'];
+    const selectedClasses = ['bg-primary-container', 'text-on-primary-container', 'shadow-[0_8px_30px_rgba(26,26,26,0.08)]'];
+    
+    const iconContainerUnselected = ['bg-surface-container-low'];
+    const iconContainerSelected = ['bg-surface-container-lowest'];
+    
+    const iconSymbolUnselected = ['text-on-surface-variant'];
+    const iconSymbolSelected = ['text-on-primary-container'];
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const isSelected = btn.getAttribute('data-selected') === 'true';
+        const iconContainer = btn.querySelector('.icon-container');
+        const iconSymbol = btn.querySelector('.icon-symbol');
+        const checkIcon = btn.querySelector('.check-icon');
+
+        if (isSelected) {
+          // Deselect
+          btn.setAttribute('data-selected', 'false');
+          btn.classList.remove(...selectedClasses);
+          btn.classList.add(...unselectedClasses);
+          
+          iconContainer.classList.remove(...iconContainerSelected);
+          iconContainer.classList.add(...iconContainerUnselected);
+          
+          iconSymbol.classList.remove(...iconSymbolSelected);
+          iconSymbol.classList.add(...iconSymbolUnselected);
+          
+          checkIcon.classList.remove('opacity-100');
+          checkIcon.classList.add('opacity-0');
+          
+          selectedCount--;
+        } else {
+          // Select
+          btn.setAttribute('data-selected', 'true');
+          btn.classList.remove(...unselectedClasses);
+          btn.classList.add(...selectedClasses);
+          
+          iconContainer.classList.remove(...iconContainerUnselected);
+          iconContainer.classList.add(...iconContainerSelected);
+          
+          iconSymbol.classList.remove(...iconSymbolUnselected);
+          iconSymbol.classList.add(...iconSymbolSelected);
+          
+          checkIcon.classList.remove('opacity-0');
+          checkIcon.classList.add('opacity-100');
+          
+          selectedCount++;
+        }
+
+        // Update Continue Button state
+        if (selectedCount > 0) {
+          continueBtn.classList.remove('bg-surface-container-high', 'text-on-surface-variant', 'shadow-sm');
+          continueBtn.classList.add('bg-primary', 'text-on-primary', 'shadow-[0_8px_30px_rgba(26,26,26,0.08)]');
+        } else {
+          continueBtn.classList.remove('bg-primary', 'text-on-primary', 'shadow-[0_8px_30px_rgba(26,26,26,0.08)]');
+          continueBtn.classList.add('bg-surface-container-high', 'text-on-surface-variant', 'shadow-sm');
+        }
+      });
+    });
+  });
+</script></main></body></html>

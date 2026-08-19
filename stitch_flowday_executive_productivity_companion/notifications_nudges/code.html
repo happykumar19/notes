@@ -1,0 +1,102 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fcf9f8;}body{overscroll-behavior:none;min-height:100vh;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}::-webkit-scrollbar{display:none;}</style><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-fixed-dim":"#e7c268","primary":"#4a654e","on-tertiary-fixed-variant":"#83260e","on-tertiary":"#ffffff","outline-variant":"#c2c8c0","secondary-container":"#ffd87c","on-error":"#ffffff","inverse-surface":"#313030","primary-fixed":"#cceace","tertiary-container":"#f97d5e","secondary":"#765a05","on-surface":"#1c1b1b","on-secondary-fixed":"#251a00","outline":"#737972","primary-container":"#8ba88e","on-tertiary-container":"#6e1701","on-background":"#1c1b1b","tertiary-fixed":"#ffdad2","surface-container-high":"#eae7e7","on-tertiary-fixed":"#3c0700","on-primary-fixed-variant":"#334d38","error":"#ba1a1a","error-container":"#ffdad6","surface":"#fcf9f8","on-secondary-fixed-variant":"#5a4400","tertiary":"#a33d23","secondary-fixed":"#ffdf96","surface-tint":"#4a654e","surface-variant":"#e5e2e1","primary-fixed-dim":"#b0ceb2","inverse-primary":"#b0ceb2","inverse-on-surface":"#f3f0ef","on-primary-fixed":"#07200f","surface-dim":"#dcd9d9","on-primary-container":"#233d29","surface-container-highest":"#e5e2e1","surface-container-lowest":"#ffffff","surface-container":"#f0eded","on-surface-variant":"#424842","tertiary-fixed-dim":"#ffb4a2","on-secondary":"#ffffff","surface-bright":"#fcf9f8","background":"#fcf9f8","surface-container-low":"#f6f3f2","on-error-container":"#93000a","on-primary":"#ffffff","on-secondary-container":"#795d08"},borderRadius:{DEFAULT:"1rem",lg:"2rem",xl:"3rem",full:"9999px"},spacing:{"space-md":"1rem","space-sm":"0.5rem","space-xs":"0.25rem","safe-margin":"1.25rem","space-lg":"1.5rem",gutter:"1rem","space-xl":"2.5rem"},fontFamily:{"display-lg-mobile":["Hanken Grotesk"],"headline-md":["Hanken Grotesk"],"display-lg":["Hanken Grotesk"],"title-task":["Hanken Grotesk"],"label-metadata":["Hanken Grotesk"],"label-caps":["Hanken Grotesk"],"body-main":["Hanken Grotesk"]},fontSize:{"display-lg-mobile":["32px",{lineHeight:"38px",letterSpacing:"-0.01em",fontWeight:"700"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}],"display-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"700"}],"title-task":["18px",{lineHeight:"24px",fontWeight:"500"}],"label-metadata":["13px",{lineHeight:"18px",letterSpacing:"0.02em",fontWeight:"600"}],"label-caps":["11px",{lineHeight:"16px",letterSpacing:"0.05em",fontWeight:"700"}],"body-main":["16px",{lineHeight:"26px",fontWeight:"400"}]}}}}</script></head><body class="bg-background font-body-main text-on-background flex flex-col min-h-screen"><header class="w-full flex items-center justify-center pt-safe h-24 mb-space-md"><img alt="Flowday logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AP1WRLva5g_3DuvpVVRAZO9OmO6IDLNwtsNWsYhHPYrMAqE7MrFa2USQJEv_zpgGV4nnd2tRyUfN_HJ_Mu-DKh_L08l_KQxD4YbIhVWNzkaxVMnlWZBAX1gTd_eGwZ4LIoDRmbpb4Ja5O8hlQDSp3BGuwW4X4N1XMIa5IbmoJZsx2SQYxSdcX1I4IK3KGQLgkSuTdkapSYC_Fy_G7Rjb3NtElt0nnvhgw6ft-iRoudfPn5mKteDZ0Wh7S3Ipp00"/></header><main class="flex-1 w-full px-safe-margin flex flex-col pb-safe"><div class="flex flex-col w-full h-full pb-safe">
+<!-- Header Area -->
+<div class="flex flex-col items-center justify-center pt-space-lg pb-space-xl px-safe-margin text-center">
+<h1 class="text-display-lg-mobile font-display-lg-mobile text-on-background mb-space-sm">Nudges</h1>
+<p class="text-body-main font-body-main text-on-surface-variant max-w-[280px]">Helpful nudges based on your brain, not just your clock.</p>
+</div>
+<!-- Tone Customization Section -->
+<div class="px-safe-margin mb-space-xl">
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-[0px_4px_20px_rgba(26,26,26,0.04)] relative overflow-hidden group">
+<div class="absolute -right-4 -top-4 w-24 h-24 bg-gradient-to-br from-primary/10 to-transparent rounded-full opacity-50 blur-xl"></div>
+<h2 class="text-headline-md font-headline-md text-on-surface mb-space-sm relative z-10">Companion Tone</h2>
+<p class="text-label-metadata font-label-metadata text-on-surface-variant mb-space-md relative z-10">How should I speak with you?</p>
+<div class="flex bg-surface-container-highest rounded-lg p-space-xs relative z-10">
+<!-- Toggle Switches -->
+<button class="flex-1 py-space-sm text-center rounded-md bg-surface shadow-sm text-primary text-title-task font-title-task transition-all duration-300">
+                    Gentle
+                </button>
+<button class="flex-1 py-space-sm text-center rounded-md text-on-surface-variant text-title-task font-title-task transition-all duration-300 hover:bg-surface-container/50">
+                    Concise
+                </button>
+</div>
+</div>
+</div>
+<!-- Recent Nudges List -->
+<div class="px-safe-margin flex-1 flex flex-col gap-space-md mb-space-xl">
+<h3 class="text-title-task font-title-task text-on-surface-variant px-space-xs">Recent Nudges</h3>
+<!-- GENTLE (Low energy nudge) -->
+<div class="bg-surface-container-lowest rounded-[24px] p-space-md shadow-[0px_4px_20px_rgba(26,26,26,0.04)] flex flex-col gap-space-sm transition-transform active:scale-[0.98] active:shadow-none">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[18px]">psychology_alt</span>
+</div>
+<span class="text-label-caps font-label-caps text-secondary uppercase tracking-wider">Low Energy</span>
+</div>
+<span class="text-label-metadata font-label-metadata text-on-surface-variant">10m ago</span>
+</div>
+<p class="text-body-main font-body-main text-on-surface mt-space-xs">You said your energy is low. I've swapped your next task for something lighter.</p>
+<div class="flex gap-space-sm mt-space-sm">
+<button class="flex-1 bg-surface-container-highest text-on-surface-variant py-space-sm rounded-lg text-title-task font-title-task hover:bg-surface-variant transition-colors">Undo Swap</button>
+<button class="flex-1 bg-secondary text-on-secondary py-space-sm rounded-lg text-title-task font-title-task shadow-sm transition-colors">View Task</button>
+</div>
+</div>
+<!-- IMPORTANT (Focus window) -->
+<div class="bg-surface-container-lowest rounded-[24px] p-space-md shadow-[0px_8px_30px_rgba(26,26,26,0.08)] flex flex-col gap-space-sm border-2 border-primary/20 relative overflow-hidden transition-transform active:scale-[0.98] active:shadow-[0px_4px_20px_rgba(26,26,26,0.04)]">
+<div class="absolute top-0 left-0 w-full h-1 bg-primary/20"></div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container">
+<span 'fill'="" 1;""="" class="material-symbols-outlined text-[18px] style=" font-variation-settings:="">electric_bolt</span>
+</div>
+<span class="text-label-caps font-label-caps text-primary uppercase tracking-wider">Focus Window</span>
+</div>
+<span class="text-label-metadata font-label-metadata text-primary font-bold">Now</span>
+</div>
+<p class="text-headline-md font-headline-md text-on-surface mt-space-xs leading-tight">Your best focus window starts in 10 minutes. Want to work on your proposal?</p>
+<div class="flex gap-space-sm mt-space-sm">
+<button class="flex-1 bg-surface-container-highest text-on-surface-variant py-space-sm rounded-lg text-title-task font-title-task hover:bg-surface-variant transition-colors">Snooze 10m</button>
+<button class="flex-1 bg-primary text-on-primary py-space-sm rounded-lg text-title-task font-title-task shadow-md hover:shadow-lg transition-shadow">Start Focus</button>
+</div>
+</div>
+<!-- USEFUL (Planning nudge) -->
+<div class="bg-surface-container-lowest rounded-[24px] p-space-md shadow-[0px_4px_20px_rgba(26,26,26,0.04)] flex flex-col gap-space-sm transition-transform active:scale-[0.98] active:shadow-none">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-tertiary-container flex items-center justify-center text-on-tertiary-container">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+</div>
+<span class="text-label-caps font-label-caps text-tertiary uppercase tracking-wider">Gap Found</span>
+</div>
+<span class="text-label-metadata font-label-metadata text-on-surface-variant">1h ago</span>
+</div>
+<p class="text-body-main font-body-main text-on-surface mt-space-xs">You have 25 minutes before your meeting. A small task fits perfectly here.</p>
+<div class="flex gap-space-sm mt-space-sm">
+<button class="w-full bg-tertiary text-on-tertiary py-space-sm rounded-lg text-title-task font-title-task shadow-sm transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[20px]">add_task</span>
+                     Suggest Task
+                 </button>
+</div>
+</div>
+<!-- END OF DAY (Reflection) -->
+<div class="bg-surface-container-lowest rounded-[24px] p-space-md shadow-[0px_4px_20px_rgba(26,26,26,0.04)] flex flex-col gap-space-sm transition-transform active:scale-[0.98] active:shadow-none opacity-80">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-surface-variant flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">bedtime</span>
+</div>
+<span class="text-label-caps font-label-caps text-on-surface-variant uppercase tracking-wider">Wind Down</span>
+</div>
+<span class="text-label-metadata font-label-metadata text-on-surface-variant">Yesterday</span>
+</div>
+<p class="text-body-main font-body-main text-on-surface mt-space-xs">You made solid progress today. Let's close things out and rest.</p>
+<div class="flex gap-space-sm mt-space-sm">
+<button class="w-full bg-surface-container-highest text-on-surface py-space-sm rounded-lg text-title-task font-title-task transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[20px]">book</span>
+                     View Summary
+                 </button>
+</div>
+</div>
+</div>
+</div></main></body></html>

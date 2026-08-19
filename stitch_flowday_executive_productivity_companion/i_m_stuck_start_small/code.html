@@ -1,0 +1,79 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;overflow-x:hidden;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"primary-container":"#8ba88e","on-secondary-container":"#795d08","inverse-on-surface":"#f3f0ef","outline":"#737972","tertiary-fixed-dim":"#ffb4a2","background":"#fcf9f8","surface":"#fcf9f8","tertiary-container":"#f97d5e","tertiary-fixed":"#ffdad2","secondary":"#765a05","on-secondary-fixed":"#251a00","tertiary":"#a33d23","secondary-fixed-dim":"#e7c268","on-surface":"#1c1b1b","secondary-fixed":"#ffdf96","on-primary-fixed-variant":"#334d38","surface-container-low":"#f6f3f2","primary":"#4a654e","inverse-primary":"#b0ceb2","on-secondary":"#ffffff","secondary-container":"#ffd87c","surface-tint":"#4a654e","on-error-container":"#93000a","on-tertiary-container":"#6e1701","on-primary":"#ffffff","on-tertiary-fixed":"#3c0700","surface-variant":"#e5e2e1","on-primary-container":"#233d29","on-tertiary-fixed-variant":"#83260e","inverse-surface":"#313030","outline-variant":"#c2c8c0","primary-fixed-dim":"#b0ceb2","surface-dim":"#dcd9d9","on-surface-variant":"#424842","primary-fixed":"#cceace","on-background":"#1c1b1b","error":"#ba1a1a","on-secondary-fixed-variant":"#5a4400","surface-container":"#f0eded","error-container":"#ffdad6","surface-bright":"#fcf9f8","on-primary-fixed":"#07200f","surface-container-high":"#eae7e7","on-error":"#ffffff","on-tertiary":"#ffffff","surface-container-lowest":"#ffffff","surface-container-highest":"#e5e2e1"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"space-md":"1rem","space-lg":"1.5rem","space-sm":"0.5rem","space-xl":"2.5rem","space-xs":"0.25rem","gutter":"1rem","safe-margin":"1.25rem"},"fontFamily":{"title-task":["Hanken Grotesk"],"label-metadata":["Hanken Grotesk"],"body-main":["Hanken Grotesk"],"display-lg":["Hanken Grotesk"],"display-lg-mobile":["Hanken Grotesk"],"label-caps":["Hanken Grotesk"],"headline-md":["Hanken Grotesk"]},"fontSize":{"title-task":["18px",{"lineHeight":"24px","fontWeight":"500"}],"label-metadata":["13px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"600"}],"body-main":["16px",{"lineHeight":"26px","fontWeight":"400"}],"display-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"display-lg-mobile":["32px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-caps":["11px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-main text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-safe-margin flex items-center justify-between"><button class="w-10 h-10 flex items-center justify-center -ml-2 text-on-surface hover:bg-surface-container rounded-full transition-colors" onclick="history.back()"><span class="material-symbols-outlined">arrow_back</span></button><h1 class="flex-1 text-center font-title-task text-title-task text-on-surface">Im Stuck</h1><div class="w-10 h-10"></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 bg-surface"><div class="flex flex-col w-full px-safe-margin gap-space-xl pb-space-xl relative">
+<!-- AI Companion Avatar & Message -->
+<div class="flex flex-col gap-space-md mt-space-lg animate-fade-in-up" style="animation-delay: 0.1s;">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">psychology</span>
+</div>
+<span class="font-label-metadata text-label-metadata text-outline">Flowday AI</span>
+</div>
+<!-- AI Suggestion Bubble -->
+<div class="bg-primary/10 text-on-surface p-space-lg rounded-[32px] rounded-tl-[8px] shadow-sm transform transition-transform hover:scale-[1.01]">
+<p class="font-body-main text-body-main text-on-surface-variant">
+        That's okay. Forget the whole task. Let's only do the first 2 minutes.
+      </p>
+</div>
+</div>
+<!-- Focus Card Level 2 (Active/Floating) -->
+<div class="bg-surface-container-lowest rounded-[24px] shadow-[0_4px_20px_rgba(26,26,26,0.04),_0_8px_30px_rgba(26,26,26,0.08)] p-space-xl flex flex-col items-center justify-center text-center min-h-[240px] relative overflow-hidden transition-all duration-300 transform animate-fade-in-up" id="focus-card" style="animation-delay: 0.2s;">
+<!-- Energy State Indicator -->
+<div class="absolute top-space-md right-space-md w-3 h-3 rounded-full bg-tertiary-container shadow-sm"></div>
+<p class="font-label-caps text-label-caps text-outline uppercase tracking-wider mb-space-md">Next Action</p>
+<h2 class="font-display-lg-mobile text-display-lg-mobile text-on-surface">
+      Open your project.
+    </h2>
+<!-- Subtle breathing animation for focus -->
+<div class="absolute inset-0 bg-primary/5 opacity-0 hover:opacity-100 transition-opacity duration-1000 pointer-events-none rounded-[24px] animate-pulse"></div>
+</div>
+<!-- Actions -->
+<div class="flex flex-col gap-space-sm mt-auto pt-space-xl animate-fade-in-up" style="animation-delay: 0.3s;">
+<button class="w-full bg-primary text-on-primary rounded-full py-4 px-space-xl font-title-task text-title-task shadow-md transition-all duration-200 active:scale-[0.98] active:shadow-none flex items-center justify-center gap-space-sm" id="btn-start">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+      Start
+    </button>
+<button class="w-full py-4 text-primary font-label-metadata text-label-metadata transition-colors active:bg-primary/5 rounded-full">
+      Break it down again
+    </button>
+</div>
+</div>
+<style>
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fade-in-up {
+    animation: fade-in-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    opacity: 0;
+  }
+</style>
+<script>
+  // Add tactile feedback to the main card when tapped
+  const focusCard = document.getElementById('focus-card');
+  const btnStart = document.getElementById('btn-start');
+
+  focusCard.addEventListener('touchstart', () => {
+    focusCard.style.transform = 'scale(0.98)';
+    focusCard.style.boxShadow = '0 2px 10px rgba(26,26,26,0.04)';
+  });
+
+  focusCard.addEventListener('touchend', () => {
+    focusCard.style.transform = 'scale(1)';
+    focusCard.style.boxShadow = '0 4px 20px rgba(26,26,26,0.04), 0 8px 30px rgba(26,26,26,0.08)';
+  });
+
+  // Start button interaction simulation
+  btnStart.addEventListener('click', () => {
+    const originalText = btnStart.innerHTML;
+    btnStart.innerHTML = `<span class="material-symbols-outlined animate-spin">refresh</span>`;
+    setTimeout(() => {
+      btnStart.innerHTML = originalText;
+    }, 1000);
+  });
+</script></main></body></html>

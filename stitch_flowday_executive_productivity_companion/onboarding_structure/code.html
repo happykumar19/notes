@@ -1,0 +1,164 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fcf9f8;}body{overscroll-behavior:none;min-height:100vh;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}::-webkit-scrollbar{display:none;}</style><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-fixed-dim":"#e7c268","primary":"#4a654e","on-tertiary-fixed-variant":"#83260e","on-tertiary":"#ffffff","outline-variant":"#c2c8c0","secondary-container":"#ffd87c","on-error":"#ffffff","inverse-surface":"#313030","primary-fixed":"#cceace","tertiary-container":"#f97d5e","secondary":"#765a05","on-surface":"#1c1b1b","on-secondary-fixed":"#251a00","outline":"#737972","primary-container":"#8ba88e","on-tertiary-container":"#6e1701","on-background":"#1c1b1b","tertiary-fixed":"#ffdad2","surface-container-high":"#eae7e7","on-tertiary-fixed":"#3c0700","on-primary-fixed-variant":"#334d38","error":"#ba1a1a","error-container":"#ffdad6","surface":"#fcf9f8","on-secondary-fixed-variant":"#5a4400","tertiary":"#a33d23","secondary-fixed":"#ffdf96","surface-tint":"#4a654e","surface-variant":"#e5e2e1","primary-fixed-dim":"#b0ceb2","inverse-primary":"#b0ceb2","inverse-on-surface":"#f3f0ef","on-primary-fixed":"#07200f","surface-dim":"#dcd9d9","on-primary-container":"#233d29","surface-container-highest":"#e5e2e1","surface-container-lowest":"#ffffff","surface-container":"#f0eded","on-surface-variant":"#424842","tertiary-fixed-dim":"#ffb4a2","on-secondary":"#ffffff","surface-bright":"#fcf9f8","background":"#fcf9f8","surface-container-low":"#f6f3f2","on-error-container":"#93000a","on-primary":"#ffffff","on-secondary-container":"#795d08"},borderRadius:{DEFAULT:"1rem",lg:"2rem",xl:"3rem",full:"9999px"},spacing:{"space-md":"1rem","space-sm":"0.5rem","space-xs":"0.25rem","safe-margin":"1.25rem","space-lg":"1.5rem",gutter:"1rem","space-xl":"2.5rem"},fontFamily:{"display-lg-mobile":["Hanken Grotesk"],"headline-md":["Hanken Grotesk"],"display-lg":["Hanken Grotesk"],"title-task":["Hanken Grotesk"],"label-metadata":["Hanken Grotesk"],"label-caps":["Hanken Grotesk"],"body-main":["Hanken Grotesk"]},fontSize:{"display-lg-mobile":["32px",{lineHeight:"38px",letterSpacing:"-0.01em",fontWeight:"700"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}],"display-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"700"}],"title-task":["18px",{lineHeight:"24px",fontWeight:"500"}],"label-metadata":["13px",{lineHeight:"18px",letterSpacing:"0.02em",fontWeight:"600"}],"label-caps":["11px",{lineHeight:"16px",letterSpacing:"0.05em",fontWeight:"700"}],"body-main":["16px",{lineHeight:"26px",fontWeight:"400"}]}}}}</script></head><body class="bg-background font-body-main text-on-background flex flex-col min-h-screen"><header class="w-full flex items-center justify-center pt-safe h-24 mb-space-md"><img alt="Flowday logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AP1WRLva5g_3DuvpVVRAZO9OmO6IDLNwtsNWsYhHPYrMAqE7MrFa2USQJEv_zpgGV4nnd2tRyUfN_HJ_Mu-DKh_L08l_KQxD4YbIhVWNzkaxVMnlWZBAX1gTd_eGwZ4LIoDRmbpb4Ja5O8hlQDSp3BGuwW4X4N1XMIa5IbmoJZsx2SQYxSdcX1I4IK3KGQLgkSuTdkapSYC_Fy_G7Rjb3NtElt0nnvhgw6ft-iRoudfPn5mKteDZ0Wh7S3Ipp00"/></header><main class="flex-1 w-full px-safe-margin flex flex-col pb-safe"><div class="flex flex-col w-full h-full relative">
+<!-- Floating Ambient Orbs (Background) -->
+<div class="absolute inset-0 pointer-events-none overflow-hidden rounded-[2rem]">
+<div class="absolute top-[10%] left-[5%] w-32 h-32 bg-primary-fixed rounded-full blur-3xl opacity-40 mix-blend-multiply animate-[float_8s_ease-in-out_infinite]"></div>
+<div class="absolute top-[40%] right-[10%] w-48 h-48 bg-secondary-fixed rounded-full blur-3xl opacity-30 mix-blend-multiply animate-[float_12s_ease-in-out_infinite_reverse]"></div>
+</div>
+<style>
+    @keyframes float {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-20px) scale(1.05); }
+    }
+    @keyframes pulse-ring {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(74, 101, 78, 0.4); }
+      70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(74, 101, 78, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(74, 101, 78, 0); }
+    }
+    .selected-card {
+      background-color: var(--primary-fixed);
+      box-shadow: 0 8px 30px rgba(26, 26, 26, 0.08);
+      transform: translateY(-4px);
+      transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .unselected-card {
+      background-color: var(--surface-container-lowest);
+      box-shadow: 0 4px 20px rgba(26, 26, 26, 0.04);
+      transform: translateY(0);
+      transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .unselected-card:active {
+      transform: translateY(2px);
+      box-shadow: 0 2px 10px rgba(26, 26, 26, 0.02);
+    }
+  </style>
+<!-- Content Container -->
+<div class="flex flex-col flex-1 z-10 px-safe-margin pt-space-md pb-[120px]">
+<!-- Header -->
+<div class="flex flex-col gap-space-sm mb-space-xl text-center items-center">
+<div class="inline-flex items-center gap-2 bg-surface-container-high px-4 py-1.5 rounded-full mb-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-[pulse-ring_2s_infinite]"></span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">Step 5 of 6</span>
+</div>
+<h1 class="font-display-lg-mobile text-display-lg-mobile text-on-background">
+        How much structure do you prefer?
+      </h1>
+<p class="font-body-main text-body-main text-on-surface-variant max-w-[280px]">
+        We'll shape your day to match your natural rhythm.
+      </p>
+</div>
+<!-- Options List -->
+<div class="flex flex-col gap-space-md" id="structure-options">
+<!-- Option 1: Gentle -->
+<button class="w-full text-left p-space-lg rounded-[24px] unselected-card relative overflow-hidden group" data-value="gentle" onclick="selectStructure('gentle')">
+<div class="flex items-start gap-space-md relative z-10">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-primary group-[.selected-card]:bg-primary group-[.selected-card]:text-on-primary transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">water_drop</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-title-task text-title-task text-on-background">Gentle</span>
+<span class="font-body-main text-body-main text-on-surface-variant text-sm">Just the essentials. Focus on 1-2 key things, lots of breathing room.</span>
+<!-- Density Visualization -->
+<div class="flex gap-2 mt-3 items-center opacity-70">
+<div class="h-2 w-8 rounded-full bg-primary/40"></div>
+<div class="h-1 w-4 rounded-full bg-outline-variant"></div>
+<div class="h-2 w-12 rounded-full bg-secondary-fixed"></div>
+<div class="h-1 w-6 rounded-full bg-outline-variant"></div>
+</div>
+</div>
+</div>
+<!-- Selection Ring -->
+<div class="absolute inset-0 border-2 border-primary opacity-0 group-[.selected-card]:opacity-100 rounded-[24px] transition-opacity pointer-events-none"></div>
+</button>
+<!-- Option 2: Balanced -->
+<button class="w-full text-left p-space-lg rounded-[24px] selected-card relative overflow-hidden group" data-value="balanced" onclick="selectStructure('balanced')">
+<div class="flex items-start gap-space-md relative z-10">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center text-on-primary transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">balance</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-title-task text-title-task text-on-background">Balanced</span>
+<span class="font-body-main text-body-main text-on-surface-variant text-sm">A mix of flow and focus. Core blocks of work with flexible spaces between.</span>
+<!-- Density Visualization -->
+<div class="flex gap-1.5 mt-3 items-center opacity-80">
+<div class="h-2.5 w-10 rounded-full bg-primary"></div>
+<div class="h-1.5 w-3 rounded-full bg-outline-variant"></div>
+<div class="h-2.5 w-10 rounded-full bg-secondary"></div>
+<div class="h-1.5 w-3 rounded-full bg-outline-variant"></div>
+<div class="h-2.5 w-8 rounded-full bg-primary"></div>
+</div>
+</div>
+</div>
+<!-- Selection Ring -->
+<div class="absolute inset-0 border-2 border-primary opacity-100 rounded-[24px] transition-opacity pointer-events-none"></div>
+</button>
+<!-- Option 3: Structured -->
+<button class="w-full text-left p-space-lg rounded-[24px] unselected-card relative overflow-hidden group" data-value="structured" onclick="selectStructure('structured')">
+<div class="flex items-start gap-space-md relative z-10">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-primary group-[.selected-card]:bg-primary group-[.selected-card]:text-on-primary transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">view_timeline</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-title-task text-title-task text-on-background">Highly Structured</span>
+<span class="font-body-main text-body-main text-on-surface-variant text-sm">Every minute planned. Strict timeboxing to eliminate decision fatigue.</span>
+<!-- Density Visualization -->
+<div class="flex gap-1 mt-3 items-center">
+<div class="h-3 w-8 rounded-sm bg-primary"></div>
+<div class="h-3 w-6 rounded-sm bg-secondary"></div>
+<div class="h-3 w-8 rounded-sm bg-tertiary"></div>
+<div class="h-3 w-6 rounded-sm bg-primary"></div>
+<div class="h-3 w-6 rounded-sm bg-secondary"></div>
+</div>
+</div>
+</div>
+<!-- Selection Ring -->
+<div class="absolute inset-0 border-2 border-primary opacity-0 group-[.selected-card]:opacity-100 rounded-[24px] transition-opacity pointer-events-none"></div>
+</button>
+</div>
+</div>
+<!-- Bottom Action Bar (Fixed to bottom of screen within the flex layout) -->
+<div class="fixed bottom-0 left-0 right-0 p-safe-margin bg-gradient-to-t from-background via-background/95 to-transparent pt-12 z-50">
+<button class="w-full h-14 bg-primary text-on-primary rounded-full font-label-metadata text-[16px] flex items-center justify-center gap-2 shadow-[0_8px_30px_rgba(26,26,26,0.08)] active:scale-[0.98] transition-transform">
+<span>Almost there</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+<script>
+    function selectStructure(value) {
+      const options = document.querySelectorAll('#structure-options button');
+      options.forEach(btn => {
+        if (btn.dataset.value === value) {
+          btn.classList.remove('unselected-card');
+          btn.classList.add('selected-card');
+          
+          // Update icon background and color for selected state
+          const iconContainer = btn.querySelector('.rounded-full');
+          iconContainer.classList.remove('bg-surface-container', 'text-primary');
+          iconContainer.classList.add('bg-primary', 'text-on-primary');
+          
+          // Show border
+          btn.querySelector('.border-2').classList.remove('opacity-0');
+          btn.querySelector('.border-2').classList.add('opacity-100');
+          
+        } else {
+          btn.classList.add('unselected-card');
+          btn.classList.remove('selected-card');
+          
+          // Revert icon background and color for unselected state
+          const iconContainer = btn.querySelector('.rounded-full');
+          iconContainer.classList.add('bg-surface-container', 'text-primary');
+          iconContainer.classList.remove('bg-primary', 'text-on-primary');
+          
+          // Hide border
+          btn.querySelector('.border-2').classList.add('opacity-0');
+          btn.querySelector('.border-2').classList.remove('opacity-100');
+        }
+      });
+      
+      // Gentle haptic feedback if supported
+      if (window.navigator && window.navigator.vibrate) {
+        window.navigator.vibrate(10);
+      }
+    }
+  </script>
+</div></main></body></html>

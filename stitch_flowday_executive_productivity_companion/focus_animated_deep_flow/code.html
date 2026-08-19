@@ -1,0 +1,111 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "background": "#fcf9f8", "surface-dim": "#dcd9d9", "tertiary-container": "#f97d5e", "on-primary-fixed": "#07200f", "on-secondary": "#ffffff", "surface-container-lowest": "#ffffff", "surface-bright": "#fcf9f8", "inverse-surface": "#313030", "surface-container": "#f0eded", "on-secondary-fixed": "#251a00", "surface-container-highest": "#e5e2e1", "secondary": "#765a05", "primary-fixed": "#cceace", "outline": "#737972", "outline-variant": "#c2c8c0", "primary-fixed-dim": "#b0ceb2", "surface": "#fcf9f8", "secondary-fixed-dim": "#e7c268", "on-tertiary-container": "#6e1701", "error-container": "#ffdad6", "on-error": "#ffffff", "on-surface-variant": "#424842", "on-background": "#1c1b1b", "surface-container-high": "#eae7e7", "surface-container-low": "#f6f3f2", "on-surface": "#1c1b1b", "inverse-on-surface": "#f3f0ef", "on-tertiary-fixed-variant": "#83260e", "primary": "#4a654e", "on-primary-container": "#233d29", "surface-tint": "#4a654e", "on-error-container": "#93000a", "on-secondary-container": "#795d08", "secondary-container": "#ffd87c", "tertiary": "#a33d23", "primary-container": "#8ba88e", "error": "#ba1a1a", "on-primary": "#ffffff", "on-tertiary": "#ffffff", "tertiary-fixed": "#ffdad2", "tertiary-fixed-dim": "#ffb4a2", "surface-variant": "#e5e2e1", "inverse-primary": "#b0ceb2", "secondary-fixed": "#ffdf96", "on-secondary-fixed-variant": "#5a4400", "on-tertiary-fixed": "#3c0700", "on-primary-fixed-variant": "#334d38" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-md": "1rem", "safe-margin": "1.25rem", "gutter": "1rem" }, "fontFamily": { "label-caps": ["Hanken Grotesk"], "label-metadata": ["Hanken Grotesk"], "display-lg-mobile": ["Hanken Grotesk"], "body-main": ["Hanken Grotesk"], "title-task": ["Hanken Grotesk"], "display-lg": ["Hanken Grotesk"], "headline-md": ["Hanken Grotesk"] }, "fontSize": { "label-caps": ["11px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700" }], "label-metadata": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-lg-mobile": ["32px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-main": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "title-task": ["18px", { "lineHeight": "24px", "fontWeight": "500" }], "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }] } } } }</script><style>@layer base { body { -webkit-tap-highlight-color: transparent; overscroll-behavior-y: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom); } .pt-safe { padding-top: env(safe-area-inset-top); } } .glass-panel { background: rgba(252, 249, 248, 0.8); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); } 
+  
+  @keyframes fadeSlideUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-fade-slide-up {
+    animation: fadeSlideUp 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    opacity: 0;
+  }
+  
+  .delay-100 { animation-delay: 100ms; }
+  .delay-300 { animation-delay: 300ms; }
+  .delay-500 { animation-delay: 500ms; }
+  .delay-700 { animation-delay: 700ms; }
+
+  @keyframes pulseRing {
+    0%, 100% { stroke-dashoffset: 65; }
+    50% { stroke-dashoffset: 55; }
+  }
+  
+  .animate-pulse-ring {
+    animation: pulseRing 8s ease-in-out infinite;
+  }
+
+  @keyframes breathe {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+  
+  .animate-breathe {
+    animation: breathe 6s ease-in-out infinite;
+  }
+  </style></head><body class="bg-background font-body-main text-on-background min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe glass-panel shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-safe-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Flowday Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBjjWkMIOjGUXp7CJtfnLG0PCqxBkVoBQWisqfppsG2NYR3kmj22hiWuEgLivfCqUbbsvrMA1tlW5M_Jvyhz_vhuzEjnDOMX67SzYoPzk10QBv5BfiPZwuEdh2VM0-XoMI1UUeFm0_P6ywC-dbpRTR2Puey81VrpMVjHkNL0TM1Ry2X7261303y_i48V4Bva6JwGuoWuC_MOjXb0TyBc0kXKSGslTGSffijcbOSXKXDJpnWdt3kqqK"/><span class="font-headline-md text-headline-md text-on-surface">Focus</span></div><button class="flex items-center justify-center p-space-xs"><img alt="Profile" class="w-9 h-9 rounded-full object-cover shadow-lg active:scale-95 transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8PP7Ghsb1UAtKdvTNNe5UEa7lqV7STNZqblDyofQrD1jMFUtMHQWJjVlsK9hAcEGiKAIh82UKXsuseoUIHfrJSMlw3A_JAG3GuDEeWvIBbnCxYm5db8IGuIBUbUDM_9b7tFitZmPqX2fvl7CY7FiKaEt4HAgZGrRnaMVukiudrTo7ipD-ZX7FwoPlCQZG-KlUGU72p_Hd_eN-X2tKVaPuOwunJP-M-SqbpffizAEda0KLyB9NPmFp"/></button></div></header><main class="relative w-full pt-16 pb-24 min-h-screen bg-background"><div class="flex flex-col w-full h-full relative overflow-hidden bg-[#1c1b1b] text-on-error h-[100dvh]">
+<!-- Immersive Background -->
+<div class="absolute inset-0 z-0">
+{{DATA:ANIMATION:ANIMATION_1}}
+<div class="absolute inset-0 bg-gradient-to-b from-[#233d29]/40 to-[#1c1b1b]/80 mix-blend-multiply pointer-events-none"></div>
+</div>
+<!-- Content Container -->
+<div class="relative z-10 flex flex-col items-center justify-between h-full p-space-md pt-space-xl pb-safe">
+<!-- Header / Intent -->
+<div class="flex flex-col items-center mt-space-lg text-center px-space-md w-full animate-fade-slide-up delay-100">
+<span class="font-label-caps text-label-caps text-primary-fixed-dim uppercase tracking-widest mb-space-sm opacity-80">Deep Flow</span>
+<h1 class="font-display-lg-mobile text-display-lg-mobile text-on-error leading-tight drop-shadow-md">Finish Q3 Roadmap Pitch</h1>
+<div class="mt-space-md px-space-md py-space-xs rounded-full bg-surface-variant/10 backdrop-blur-sm">
+<span class="font-label-metadata text-label-metadata text-outline-variant flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-error animate-pulse"></span>
+          Do Not Disturb
+        </span>
+</div>
+</div>
+<!-- Timer / Visualizer -->
+<div class="flex-1 flex items-center justify-center w-full relative max-h-[50vh] animate-fade-slide-up delay-300">
+<!-- Background Track -->
+<svg class="w-full h-full max-w-[320px] max-h-[320px] drop-shadow-xl" style="transform: rotate(-90deg);" viewbox="0 0 100 100">
+<circle cx="50" cy="50" fill="none" r="45" stroke="rgba(255,255,255,0.05)" stroke-width="2"></circle>
+<!-- Progress Arc -->
+<circle class="text-primary-fixed drop-shadow-[0_0_15px_rgba(204,234,206,0.5)] transition-all duration-1000 ease-linear animate-pulse-ring" cx="50" cy="50" fill="none" r="45" stroke="currentColor" stroke-dasharray="283" stroke-dashoffset="65" stroke-linecap="round" stroke-width="4"></circle>
+</svg>
+<!-- Time Display -->
+<div class="absolute inset-0 flex flex-col items-center justify-center">
+<span class="text-[64px] font-display-lg font-bold text-on-error tracking-tighter drop-shadow-lg">24<span class="opacity-50">:</span>18</span>
+<span class="font-label-metadata text-label-metadata text-outline-variant mt-[-8px]">Remaining</span>
+</div>
+</div>
+<!-- AI Companion & Controls -->
+<div class="w-full flex flex-col items-center gap-space-lg mt-auto mb-space-xl px-space-sm">
+<!-- AI Insight Bubble -->
+<div class="flex items-center gap-space-md bg-surface-variant/10 backdrop-blur-md p-space-sm pr-space-lg rounded-[32px] rounded-bl-[8px] max-w-[90%] drop-shadow-lg animate-fade-slide-up delay-500">
+<div class="w-12 h-12 rounded-full overflow-hidden shrink-0 shadow-[0_0_20px_rgba(74,101,78,0.3)] bg-surface-container animate-breathe">
+<img alt="AI Companion Avatar" class="w-full h-full object-cover mix-blend-screen opacity-90" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8PP7Ghsb1UAtKdvTNNe5UEa7lqV7STNZqblDyofQrD1jMFUtMHQWJjVlsK9hAcEGiKAIh82UKXsuseoUIHfrJSMlw3A_JAG3GuDEeWvIBbnCxYm5db8IGuIBUbUDM_9b7tFitZmPqX2fvl7CY7FiKaEt4HAgZGrRnaMVukiudrTo7ipD-ZX7FwoPlCQZG-KlUGU72p_Hd_eN-X2tKVaPuOwunJP-M-SqbpffizAEda0KLyB9NPmFp"/>
+</div>
+<p class="font-body-main text-[15px] text-surface-container-low leading-snug">
+          "You're in the zone. Just a solid stretch left to wrap up that opening slide."
+        </p>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center gap-space-md w-full justify-center mt-space-xs animate-fade-slide-up delay-700">
+<button class="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-surface-variant/15 backdrop-blur-sm text-outline-variant hover:bg-surface-variant/25 transition-all duration-300 shadow-lg hover:scale-[1.05] active:scale-95">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">pause</span>
+</button>
+<button class="flex items-center justify-center gap-space-sm px-space-xl h-16 rounded-full bg-primary-fixed text-on-primary-fixed font-title-task text-title-task shadow-[0_8px_30px_rgba(204,234,206,0.2)] hover:shadow-[0_8px_40px_rgba(204,234,206,0.3)] hover:scale-[1.05] active:scale-95 transition-all duration-300">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">done</span>
+          Complete Task
+        </button>
+</div>
+</div>
+</div>
+<script>
+    // Hide App Shell Nav and Header for immersive experience
+    document.addEventListener("DOMContentLoaded", () => {
+      const header = document.querySelector('header');
+      const nav = document.querySelector('nav');
+      const fab = document.querySelector('button.fixed.bottom-24');
+      const main = document.querySelector('main');
+      
+      if(header) header.style.display = 'none';
+      if(nav) nav.style.display = 'none';
+      if(fab) fab.style.display = 'none';
+      
+      // Override main padding to remove spacing meant for header
+      if(main) {
+        main.classList.remove('pt-16', 'pb-24');
+        main.style.padding = '0';
+      }
+    });
+  </script>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe glass-panel" data-active-classes="text-primary font-semibold"><div class="flex justify-around items-center h-20 px-space-md"><a class="flex flex-col items-center gap-space-xs text-on-surface-variant transition-colors min-w-[64px]" data-path="today" href="#"><span class="material-symbols-outlined">calendar_today</span><span class="font-label-metadata text-label-metadata">Today</span></a><a class="flex flex-col items-center gap-space-xs text-on-surface-variant transition-colors min-w-[64px]" data-path="tasks" href="#"><span class="material-symbols-outlined">check_circle</span><span class="font-label-metadata text-label-metadata">Tasks</span></a><a aria-current="page" class="flex flex-col items-center gap-space-xs transition-colors min-w-[64px] text-primary font-semibold" data-path="focus" href="#"><span class="material-symbols-outlined">center_focus_strong</span><span class="font-label-metadata text-label-metadata">Focus</span></a><a class="flex flex-col items-center gap-space-xs text-on-surface-variant transition-colors min-w-[64px]" data-path="insights" href="#"><span class="material-symbols-outlined">monitoring</span><span class="font-label-metadata text-label-metadata">Insights</span></a></div></nav><button class="fixed bottom-24 right-safe-margin z-40 w-14 h-14 bg-primary text-on-primary rounded-full flex items-center justify-center shadow-[0_8px_30px_rgba(74,101,78,0.3)] active:scale-90 transition-all"><span class="material-symbols-outlined text-3xl">auto_awesome</span></button></body></html>

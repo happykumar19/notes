@@ -1,0 +1,176 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fcf9f8;}body{overscroll-behavior:none;min-height:100vh;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}::-webkit-scrollbar{display:none;}</style><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-fixed-dim":"#e7c268","primary":"#4a654e","on-tertiary-fixed-variant":"#83260e","on-tertiary":"#ffffff","outline-variant":"#c2c8c0","secondary-container":"#ffd87c","on-error":"#ffffff","inverse-surface":"#313030","primary-fixed":"#cceace","tertiary-container":"#f97d5e","secondary":"#765a05","on-surface":"#1c1b1b","on-secondary-fixed":"#251a00","outline":"#737972","primary-container":"#8ba88e","on-tertiary-container":"#6e1701","on-background":"#1c1b1b","tertiary-fixed":"#ffdad2","surface-container-high":"#eae7e7","on-tertiary-fixed":"#3c0700","on-primary-fixed-variant":"#334d38","error":"#ba1a1a","error-container":"#ffdad6","surface":"#fcf9f8","on-secondary-fixed-variant":"#5a4400","tertiary":"#a33d23","secondary-fixed":"#ffdf96","surface-tint":"#4a654e","surface-variant":"#e5e2e1","primary-fixed-dim":"#b0ceb2","inverse-primary":"#b0ceb2","inverse-on-surface":"#f3f0ef","on-primary-fixed":"#07200f","surface-dim":"#dcd9d9","on-primary-container":"#233d29","surface-container-highest":"#e5e2e1","surface-container-lowest":"#ffffff","surface-container":"#f0eded","on-surface-variant":"#424842","tertiary-fixed-dim":"#ffb4a2","on-secondary":"#ffffff","surface-bright":"#fcf9f8","background":"#fcf9f8","surface-container-low":"#f6f3f2","on-error-container":"#93000a","on-primary":"#ffffff","on-secondary-container":"#795d08"},borderRadius:{DEFAULT:"1rem",lg:"2rem",xl:"3rem",full:"9999px"},spacing:{"space-md":"1rem","space-sm":"0.5rem","space-xs":"0.25rem","safe-margin":"1.25rem","space-lg":"1.5rem",gutter:"1rem","space-xl":"2.5rem"},fontFamily:{"display-lg-mobile":["Hanken Grotesk"],"headline-md":["Hanken Grotesk"],"display-lg":["Hanken Grotesk"],"title-task":["Hanken Grotesk"],"label-metadata":["Hanken Grotesk"],"label-caps":["Hanken Grotesk"],"body-main":["Hanken Grotesk"]},fontSize:{"display-lg-mobile":["32px",{lineHeight:"38px",letterSpacing:"-0.01em",fontWeight:"700"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}],"display-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"700"}],"title-task":["18px",{lineHeight:"24px",fontWeight:"500"}],"label-metadata":["13px",{lineHeight:"18px",letterSpacing:"0.02em",fontWeight:"600"}],"label-caps":["11px",{lineHeight:"16px",letterSpacing:"0.05em",fontWeight:"700"}],"body-main":["16px",{lineHeight:"26px",fontWeight:"400"}]}}}}</script></head><body class="bg-background font-body-main text-on-background flex flex-col min-h-screen"><header class="w-full flex items-center justify-center pt-safe h-24 mb-space-md"><img alt="Flowday logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AP1WRLva5g_3DuvpVVRAZO9OmO6IDLNwtsNWsYhHPYrMAqE7MrFa2USQJEv_zpgGV4nnd2tRyUfN_HJ_Mu-DKh_L08l_KQxD4YbIhVWNzkaxVMnlWZBAX1gTd_eGwZ4LIoDRmbpb4Ja5O8hlQDSp3BGuwW4X4N1XMIa5IbmoJZsx2SQYxSdcX1I4IK3KGQLgkSuTdkapSYC_Fy_G7Rjb3NtElt0nnvhgw6ft-iRoudfPn5mKteDZ0Wh7S3Ipp00"/></header><main class="flex-1 w-full px-safe-margin flex flex-col pb-safe"><div class="flex flex-col w-full h-full relative" id="onboarding-step-3">
+<!-- Progress Indicator -->
+<div class="flex items-center justify-between w-full mb-space-lg">
+<button aria-label="Go back" class="w-10 h-10 flex items-center justify-center rounded-full bg-surface-container-high text-on-surface hover:bg-surface-variant transition-colors" id="btn-back">
+<span class="material-symbols-outlined text-title-task">arrow_back</span>
+</button>
+<div class="flex gap-2">
+<div class="w-2 h-2 rounded-full bg-surface-container-high"></div>
+<div class="w-2 h-2 rounded-full bg-surface-container-high"></div>
+<div class="w-8 h-2 rounded-full bg-primary transition-all duration-500 ease-in-out"></div>
+<div class="w-2 h-2 rounded-full bg-surface-container-high"></div>
+</div>
+<div class="w-10 h-10"></div> <!-- Spacer for balance -->
+</div>
+<!-- Header Section -->
+<div class="flex flex-col items-center text-center mb-space-xl px-space-md opacity-0 translate-y-4 transition-all duration-700 ease-out" id="header-anim">
+<div class="w-16 h-16 rounded-full bg-primary-fixed flex items-center justify-center mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-on-primary-fixed text-headline-md" style="font-variation-settings: 'FILL' 1;">wb_sunny</span>
+</div>
+<h1 class="text-display-lg-mobile text-on-background mb-space-sm">When do you usually feel most focused?</h1>
+<p class="text-body-main text-on-surface-variant max-w-sm mx-auto">This helps Flowday schedule your deepest work during your natural peaks.</p>
+</div>
+<!-- Options Section -->
+<div class="flex flex-col gap-space-md w-full mb-space-xl opacity-0 translate-y-6 transition-all duration-700 delay-150 ease-out" id="options-anim">
+<button class="focus-option w-full group relative flex items-center p-space-lg rounded-[2rem] bg-surface-container-lowest text-on-surface shadow-[0px_4px_20px_rgba(26,26,26,0.04)] hover:shadow-[0px_8px_30px_rgba(26,26,26,0.08)] transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] overflow-hidden text-left" data-value="morning">
+<!-- Selected Background Gradient (hidden by default) -->
+<div class="absolute inset-0 bg-gradient-to-r from-primary-fixed to-primary-fixed-dim opacity-0 transition-opacity duration-300 option-bg"></div>
+<div class="relative z-10 flex items-center w-full">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center mr-space-md group-hover:bg-surface-variant transition-colors icon-bg">
+<span class="material-symbols-outlined text-on-surface-variant option-icon">wb_twilight</span>
+</div>
+<div class="flex-1">
+<h3 class="text-title-task font-medium text-on-surface option-title">Morning</h3>
+<p class="text-label-metadata text-on-surface-variant option-desc">Early riser, fresh mind</p>
+</div>
+<!-- Selection indicator (hidden by default) -->
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center opacity-0 scale-50 transition-all duration-300 check-icon">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+</div>
+</button>
+<button class="focus-option w-full group relative flex items-center p-space-lg rounded-[2rem] bg-surface-container-lowest text-on-surface shadow-[0px_4px_20px_rgba(26,26,26,0.04)] hover:shadow-[0px_8px_30px_rgba(26,26,26,0.08)] transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] overflow-hidden text-left" data-value="afternoon">
+<div class="absolute inset-0 bg-gradient-to-r from-primary-fixed to-primary-fixed-dim opacity-0 transition-opacity duration-300 option-bg"></div>
+<div class="relative z-10 flex items-center w-full">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center mr-space-md group-hover:bg-surface-variant transition-colors icon-bg">
+<span class="material-symbols-outlined text-on-surface-variant option-icon">light_mode</span>
+</div>
+<div class="flex-1">
+<h3 class="text-title-task font-medium text-on-surface option-title">Afternoon</h3>
+<p class="text-label-metadata text-on-surface-variant option-desc">Steady energy post-lunch</p>
+</div>
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center opacity-0 scale-50 transition-all duration-300 check-icon">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+</div>
+</button>
+<button class="focus-option w-full group relative flex items-center p-space-lg rounded-[2rem] bg-surface-container-lowest text-on-surface shadow-[0px_4px_20px_rgba(26,26,26,0.04)] hover:shadow-[0px_8px_30px_rgba(26,26,26,0.08)] transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] overflow-hidden text-left" data-value="evening">
+<div class="absolute inset-0 bg-gradient-to-r from-primary-fixed to-primary-fixed-dim opacity-0 transition-opacity duration-300 option-bg"></div>
+<div class="relative z-10 flex items-center w-full">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center mr-space-md group-hover:bg-surface-variant transition-colors icon-bg">
+<span class="material-symbols-outlined text-on-surface-variant option-icon">bedtime</span>
+</div>
+<div class="flex-1">
+<h3 class="text-title-task font-medium text-on-surface option-title">Evening</h3>
+<p class="text-label-metadata text-on-surface-variant option-desc">Night owl, quiet hours</p>
+</div>
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center opacity-0 scale-50 transition-all duration-300 check-icon">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+</div>
+</button>
+<button class="focus-option w-full group relative flex items-center p-space-lg rounded-[2rem] bg-surface-container-lowest text-on-surface shadow-[0px_4px_20px_rgba(26,26,26,0.04)] hover:shadow-[0px_8px_30px_rgba(26,26,26,0.08)] transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] overflow-hidden text-left" data-value="varies">
+<div class="absolute inset-0 bg-gradient-to-r from-primary-fixed to-primary-fixed-dim opacity-0 transition-opacity duration-300 option-bg"></div>
+<div class="relative z-10 flex items-center w-full">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center mr-space-md group-hover:bg-surface-variant transition-colors icon-bg">
+<span class="material-symbols-outlined text-on-surface-variant option-icon">shuffle</span>
+</div>
+<div class="flex-1">
+<h3 class="text-title-task font-medium text-on-surface option-title">It changes</h3>
+<p class="text-label-metadata text-on-surface-variant option-desc">My rhythm varies daily</p>
+</div>
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center opacity-0 scale-50 transition-all duration-300 check-icon">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+</div>
+</button>
+</div>
+<!-- Bottom Action -->
+<div class="mt-auto pt-space-lg pb-space-sm opacity-0 translate-y-4 transition-all duration-700 delay-300 ease-out" id="footer-anim">
+<button aria-disabled="true" class="w-full py-space-lg px-space-xl bg-surface-container text-on-surface-variant font-headline-md rounded-full flex items-center justify-center transition-all duration-300 pointer-events-none" id="btn-next">
+<span>Next</span>
+<span class="material-symbols-outlined ml-space-sm opacity-0 -translate-x-2 transition-all duration-300" id="btn-next-icon">arrow_forward</span>
+</button>
+</div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Entrance Animations
+        setTimeout(() => {
+            document.getElementById('header-anim').classList.remove('opacity-0', 'translate-y-4');
+            document.getElementById('options-anim').classList.remove('opacity-0', 'translate-y-6');
+            document.getElementById('footer-anim').classList.remove('opacity-0', 'translate-y-4');
+        }, 100);
+
+        const options = document.querySelectorAll('.focus-option');
+        const nextBtn = document.getElementById('btn-next');
+        const nextBtnIcon = document.getElementById('btn-next-icon');
+        let selectedValue = null;
+
+        options.forEach(option => {
+            option.addEventListener('click', function() {
+                // Deselect all
+                options.forEach(opt => {
+                    opt.setAttribute('aria-selected', 'false');
+                    opt.classList.remove('shadow-[0px_8px_30px_rgba(26,26,26,0.08)]');
+                    opt.querySelector('.option-bg').classList.remove('opacity-100');
+                    opt.querySelector('.check-icon').classList.remove('opacity-100', 'scale-100');
+                    opt.querySelector('.check-icon').classList.add('opacity-0', 'scale-50');
+                    
+                    // Reset text colors
+                    opt.querySelector('.option-title').classList.remove('text-on-primary-fixed');
+                    opt.querySelector('.option-desc').classList.remove('text-on-primary-fixed-variant');
+                    opt.querySelector('.option-icon').classList.remove('text-on-primary-fixed');
+                    opt.querySelector('.icon-bg').classList.remove('bg-primary-container/20');
+                });
+
+                // Select clicked
+                this.setAttribute('aria-selected', 'true');
+                this.classList.add('shadow-[0px_8px_30px_rgba(26,26,26,0.08)]');
+                this.querySelector('.option-bg').classList.add('opacity-100');
+                this.querySelector('.check-icon').classList.remove('opacity-0', 'scale-50');
+                this.querySelector('.check-icon').classList.add('opacity-100', 'scale-100');
+                
+                // Update text colors for selected state to ensure contrast against primary-fixed gradient
+                this.querySelector('.option-title').classList.add('text-on-primary-fixed');
+                this.querySelector('.option-desc').classList.add('text-on-primary-fixed-variant');
+                this.querySelector('.option-icon').classList.add('text-on-primary-fixed');
+                this.querySelector('.icon-bg').classList.add('bg-primary-container/20');
+
+                selectedValue = this.dataset.value;
+
+                // Enable Next Button
+                if (selectedValue) {
+                    nextBtn.classList.remove('bg-surface-container', 'text-on-surface-variant', 'pointer-events-none');
+                    nextBtn.classList.add('bg-primary', 'text-on-primary', 'hover:bg-primary/90', 'shadow-md', 'transform', 'hover:-translate-y-1', 'active:scale-95');
+                    nextBtn.removeAttribute('aria-disabled');
+                    nextBtnIcon.classList.remove('opacity-0', '-translate-x-2');
+                }
+            });
+        });
+
+        // Next Button Click Animation
+        nextBtn.addEventListener('click', (e) => {
+            if(!selectedValue) return;
+            
+            // Create a simple ripple effect
+            const ripple = document.createElement('div');
+            ripple.classList.add('absolute', 'bg-white/20', 'rounded-full', 'pointer-events-none', 'animate-ping');
+            const rect = nextBtn.getBoundingClientRect();
+            const size = Math.max(rect.width, rect.height);
+            ripple.style.width = ripple.style.height = `${size}px`;
+            ripple.style.left = `${e.clientX - rect.left - size/2}px`;
+            ripple.style.top = `${e.clientY - rect.top - size/2}px`;
+            
+            nextBtn.appendChild(ripple);
+            nextBtn.classList.add('scale-95');
+            
+            setTimeout(() => {
+                ripple.remove();
+                nextBtn.classList.remove('scale-95');
+                // Proceed to next screen logic would go here
+            }, 300);
+        });
+    });
+</script></main></body></html>
