@@ -192,3 +192,75 @@ At the end:
 That gives you **virality + education + authority + a lead magnet** in one piece.
 
 The most important rule: **don't make Claude Code the product. Make the transformation the product.** Claude Code is the machine you use to create the transformation.
+
+
+  Hermes Agent × WhatsApp — Bullet Script (Hinglish)
+  Length: ~30–45s | CTA: Comment HERMES
+
+  ────────────────────────────────────────
+
+  Hook (0–5s)
+
+  • Main yahan pe [game / scroll / chai / gym / Netflix] kar raha hoon
+  • Aur mere clients WhatsApp pe baat kar rahe hain
+  • Main nahi… Hermes agent
+
+  Problem (5–12s)
+
+  • Pehle har “bhai price?” “available ho?” “demo chahiye?” pe main khud reply karta tha
+  • Client aaya = phone uthana = flow tootna
+  • Unproductive ka time? Zero. Pure din client chat
+
+  Flex / Proof (12–25s)
+
+  • Ab Hermes WhatsApp pe clients se baat karta hai
+  • FAQs, pricing basics, follow-ups — agent handle
+  • Main chill / unproductive / apna kaam… phir bhi replies ja rahe hain
+  • Screen pe dikhao: WhatsApp chat + Hermes replies (blur names)
+
+  Soft honesty line (25–30s)
+
+  • Important chats pe main review karta hoon
+  • Blind chaos nahi — agent pehle draft/reply, critical pe human
+
+  CTA (30–45s)
+
+  • Agar tum bhi chahte ho clients se WhatsApp pe agent baat kare
+  • Jab tum kuch aur kar rahe ho
+  • Comment karo HERMES
+  • Setup workflow bhej dunga
+
+  ────────────────────────────────────────
+
+  On-screen text (bullet overlays)
+
+  • MAIN FREE… CLIENTS BUSY
+  • WHATSAPP ≠ MERA HAATH
+  • HERMES AGENT ON
+  • COMMENT: HERMES
+
+  ────────────────────────────────────────
+
+  Shot bullets
+
+  • Face cam: lazy / gaming / scrolling
+  • Cut: WhatsApp incoming + Hermes reply
+  • Split: left = you unproductive, right = chat flying
+  • End: big text COMMENT HERMES
+
+  ────────────────────────────────────────
+
+  Caption (paste)
+
+  Main unproductive… Hermes productive 💀
+  Clients WhatsApp pe baat kar rahe hain — agent se
+  Setup chahiye? Comment HERMES
+  #HermesAgent #WhatsAppAutomation #AIAgent #Hinglish
+
+  ────────────────────────────────────────
+
+  Alt hooks (pick 1)
+
+  • “Main reels dekh raha hoon… mera agent clients se deal close kar raha hai”
+  • “WhatsApp ki ding… main reply nahi karta. Hermes karta hai”
+  • “Client: price? | Main: gaming | Hermes: typing…”
